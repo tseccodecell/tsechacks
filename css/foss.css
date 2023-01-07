@@ -43,3 +43,24 @@ footer div{
     width: 200px;
     margin: 50px;
 }
+
+@media (max-width: 480px) {
+    body {
+        margin: 40px 100px 0px 40px;
+
+    }
+
+    #codecell-logo{
+        width: 75px;
+        margin: 25px;
+    }
+    
+    #hacks-logo{
+        width: 150px;
+        margin: 25px;
+    }
+
+    #back-link{
+        font-size: 18px;
+    }
+}
