@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700");
+
+body{
+    background: black;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin: 40px 100px 0px 100px;
+    font-size: 20px;
+}
+
+#back-link{
+    background: none;
+    color: #ffd600;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h3{
+    color: #ffd600;
+}
+
+strong{
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+}
+
+#codecell-logo{
+    width: 100px;
+    margin: 50px;
+}
+
+#hacks-logo{
+    width: 200px;
+    margin: 50px;
+}
