@@ -1482,6 +1482,10 @@ h1 {
   margin-left: 8px;
 }
 
+#myTab > * {
+  margin-top: 24px;  
+}
+
 .contact-wrapper > * > * {
   margin-left: 24px;
 }
