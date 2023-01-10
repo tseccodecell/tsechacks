@@ -1469,11 +1469,37 @@ h1 {
   box-shadow: 0 8px 24px #e2e8ed;
   margin-bottom: -35px;
   margin-top: -35px;
-  padding: 45px 0;
+  padding: 40px 0;
   position: relative;
   top: -40px;
   z-index: 999;
 }
+
+.inforation-wrapper > * > *, .contact-wrapper > * > * {
+  float: left;
+  display: flex;
+  margin: 4px 0;
+  margin-left: 8px;
+}
+
+#myTab > * {
+  margin-top: 24px;  
+}
+
+.contact-wrapper > * > * {
+  margin-left: 24px;
+}
+
+@media (max-width: 770px) {
+  .inforation-wrapper > * > * {
+     margin-left: 25%;
+  }
+
+  .contact-wrapper > * > * {
+    margin-left: 27%;
+  }
+}
+
 
 #information-bar ul {
   text-align: center;
@@ -2766,6 +2792,7 @@ span {
 }
 .span-white{
   color: white;
+  margin-left: 4px;
 }
 section#schedules,
 section#faq {
