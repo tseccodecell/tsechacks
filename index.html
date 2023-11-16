@@ -107,14 +107,15 @@
                     class="apply-button banner-btn" 
                     data-hackathon-slug="tsec-hacks-2023" 
                     data-button-theme="light"
-                    style="height: 44px; width: 312px">
+                    style="height: 44px; width: 312px; display:none">
                   </div>
-                <p class="banner-info">Hackathon begins on 2nd February 2023.<br>Last date for registration (20th January) ends in...</p>
+<!--                 <p class="banner-info">Hackathon begins on 2nd February 2023.<br>Last date for registration (20th January) ends in...</p> -->
+                COMING SOON...
               </div>
             </div>
           </div>
         </div>
-        <section id="count">
+        <section id="count" style="display:none">
           <div class="count-wrapper text-center">
             <div class="time-countdown wow fadeInUp" data-wow-delay="0.2s">
               <div id="clock" class="time-count">
@@ -928,35 +929,35 @@
 
     <script>
       // Set the date we're counting down to
-      var countDownDate = new Date("Jan 20, 2023 23:59:59").getTime();
+      // var countDownDate = new Date("Jan 31, 2024 23:59:59").getTime();
       
-      // Update the count down every 1 second
-      var x = setInterval(function() {
+      // // Update the count down every 1 second
+      // var x = setInterval(function() {
       
-        // Get today's date and time
-        var now = new Date().getTime();
+      //   // Get today's date and time
+      //   var now = new Date().getTime();
       
-        // Find the distance between now and the count down date
-        var distance = countDownDate - now;
+      //   // Find the distance between now and the count down date
+      //   var distance = countDownDate - now;
       
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      //   // Time calculations for days, hours, minutes and seconds
+      //   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      //   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      //   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      //   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
       
-        // Display the result in the element with id="demo"
-        document.getElementById("count-days").innerHTML = ('0' + days).substr(-2) ;
-        document.getElementById("count-hours").innerHTML = ('0' + hours).substr(-2) ;
-        document.getElementById("count-mins").innerHTML = ('0' + minutes).substr(-2) ;
-        document.getElementById("count-sec").innerHTML = ('0' + seconds).substr(-2) ;
+      //   // Display the result in the element with id="demo"
+      //   document.getElementById("count-days").innerHTML = ('0' + days).substr(-2) ;
+      //   document.getElementById("count-hours").innerHTML = ('0' + hours).substr(-2) ;
+      //   document.getElementById("count-mins").innerHTML = ('0' + minutes).substr(-2) ;
+      //   document.getElementById("count-sec").innerHTML = ('0' + seconds).substr(-2) ;
       
-        // If the count down is finished, write some text
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("clock").innerHTML = "REGISTRATIONS CLOSED!";
-        }
-      }, 1000);
+      //   // If the count down is finished, write some text
+      //   if (distance < 0) {
+      //     clearInterval(x);
+      //     document.getElementById("clock").innerHTML = "REGISTRATIONS CLOSED!";
+      //   }
+      // }, 1000);
       </script>
 
     <!-- Go to Top Link -->
